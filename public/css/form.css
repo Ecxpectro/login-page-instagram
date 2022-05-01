@@ -1,0 +1,171 @@
+.form {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    max-width: 350px;
+    flex-direction: column;
+}
+
+.login-format {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+
+}
+
+.header-form {
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+.main-form {
+    margin-bottom: 10px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.form-content>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin: 0 40px 6px;
+}
+
+input {
+    width: 268px;
+    font-size: 14px;
+    padding: 9px 0 7px 8px;
+    border: 1px solid #A8A8A8;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+
+}
+
+input:focus {
+    outline: 0;
+}
+
+.button {
+    margin: 8px 40px;
+}
+
+button {
+    width: 268px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #0095f6;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.or {
+    display: flex;
+    margin: 10px 40px 18px;
+
+}
+
+.line {
+    background-color: #DBDBDB;
+    height: 1px;
+    flex-grow: 1;
+    position: relative;
+    top: 0.45rem;
+}
+
+.or>p {
+    margin: 0 18px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #8e8e8e;
+}
+
+.facebook-login {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.facebook-login>button {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    background-color: transparent;
+}
+
+.facebook-icon {
+    width: 16px;
+}
+
+.facebook-login>button>p {
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+.forgot-psw {
+    font-size: 12px;
+    color: #00376b;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.form-register {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.form-register>p {
+    color: #262626;
+    font-size: 14px;
+    margin: 12px;
+}
+
+.form-register>p>a {
+    color: #0095f6;
+    font-weight: 600;
+}
+
+.form-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-app>p {
+    font-size: 14px;
+    margin: 10px 20px;
+    color: #262626;
+}
+
+.download-app {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.download-app img {
+    width: 136px;
+}
